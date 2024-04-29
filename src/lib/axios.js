@@ -10,7 +10,7 @@ export const createHeaders = () => {
 
 export const createRequest = () => {
   return axios.create({
-    baseURL: "http://35.196.188.171:8000",
+    baseURL: "http://35.211.29.66:8000",
     headers: createHeaders(),
   });
 };
